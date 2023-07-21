@@ -61,7 +61,7 @@ function wmataJsonToGeoJson(jsonData) {
 //-----------------------------------------------------------------------------
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('dcmetro', { title: 'Aqui e agora', BEERME: BEERME });
+  res.render('dcmetro', { title: 'Funciona', BEERME: BEERME });
 });
 
 //-----------------------------------------------------------------------------
